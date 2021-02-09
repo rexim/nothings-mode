@@ -22,3 +22,5 @@
   :syntax-table nothings-mode-syntax-table
   (setq-local font-lock-defaults '(nothings-font-lock-keywords))
   (setq-local comment-start "//"))
+
+(provide 'nothings-mode)
