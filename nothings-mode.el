@@ -17,7 +17,7 @@
    `("# *[a-zA-Z0-9_]+" . font-lock-preprocessor-face)
    `("#.*include \\(\\(<\\|\"\\).*\\(>\\|\"\\)\\)" . (1 font-lock-string-face))))
 
-(define-derived-mode nothings-mode prog-mode "Simple C"
+(define-derived-mode nothings-mode prog-mode "Nothings"
   "Simple major mode for editing C files."
   :syntax-table nothings-mode-syntax-table
   (setq-local font-lock-defaults '(nothings-font-lock-keywords))
